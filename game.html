@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Cute Birthday Games ♡</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+<button id="musicButton" class="music-button" aria-label="Play music">
+    🎵
+</button>
+
+<script src="js/script.js"></script>    
+
+<header class="minimal-nav">
+
+    <a href="index.html"
+       class="nav-logo">
+        ♡
+    </a>
+
+    <nav>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="letter.html">
+            Letter
+        </a>
+
+        <a href="love-pages.html">
+            Love
+        </a>
+
+        <a href="scratch.html">
+            Scratch
+        </a>
+
+        <a class="active"
+           href="game.html">
+            Games
+        </a>
+
+        <a href="memories.html">
+            Memories
+        </a>
+
+        <a href="surprise.html">
+            Surprise
+        </a>
+
+    </nav>
+
+    <button id="musicButton"
+            class="music-button">
+        ♫
+    </button>
+
+</header>
+
+
+<main>
+
+
+<section class="section-intro">
+
+    <p class="eyebrow">
+        PLAY A LITTLE
+    </p>
+
+    <h1>
+        Birthday<br>
+        <em>games.</em>
+    </h1>
+
+    <p>
+        Complete the games and continue
+        your little birthday journey.
+    </p>
+
+</section>
+
+
+<!-- =====================================================
+     GAME 01
+===================================================== -->
+
+<section class="game-panel">
+
+    <div class="game-heading">
+
+        <span>
+            GAME 01
+        </span>
+
+        <h2>
+            Catch The Hearts 💖
+        </h2>
+
+        <p>
+            Tap as many hearts as you can
+            before the timer ends.
+        </p>
+
+    </div>
+
+
+    <div class="game-stats">
+
+        <span>
+            Time:
+            <b id="gameTimer">20</b>s
+        </span>
+
+        <span>
+            Score:
+            <b id="gameScore">0</b>
+        </span>
+
+    </div>
+
+
+    <div class="heart-game"
+         id="heartGame">
+    </div>
+
+
+    <button id="startGame"
+            class="main-button">
+
+        Start Game
+
+    </button>
+
+
+    <p id="gameResult"
+       class="game-result">
+    </p>
+
+</section>
+
+
+<!-- =====================================================
+     GAME 02
+===================================================== -->
+
+<section class="quiz-panel">
+
+    <div class="game-heading">
+
+        <span>
+            GAME 02
+        </span>
+
+        <h2>
+            Let's Test Your Memory 💞
+        </h2>
+
+        <p>
+            How well do you remember
+            these little moments?
+        </p>
+
+    </div>
+
+
+    <div id="quizQuestion"
+         class="quiz-question">
+    </div>
+
+
+    <div id="quizOptions"
+         class="quiz-options">
+    </div>
+
+
+    <p id="quizResult"
+       class="game-result">
+    </p>
+
+
+    <button id="nextQuestion"
+            class="main-button hidden">
+
+        Next Question →
+
+    </button>
+
+</section>
+
+
+<!-- =====================================================
+     GAME 03
+===================================================== -->
+
+<section class="game-panel">
+
+    <div class="game-heading">
+
+        <span>
+            GAME 03
+        </span>
+
+        <h2>
+            Pick A Little Surprise 🎀
+        </h2>
+
+        <p>
+            Choose one card and discover
+            the message hiding inside.
+        </p>
+
+    </div>
+
+
+    <div class="mystery-cards">
+
+
+        <button class="mystery-card">
+
+            <div class="card-inner">
+
+                <div class="card-front">
+
+                    <span>♡</span>
+
+                    <small>
+                        Pick me
+                    </small>
+
+                </div>
+
+                <div class="card-back">
+
+                    <p>
+                        You make ordinary days
+                        feel special. ♡
+                    </p>
+
+                </div>
+
+            </div>
+
+        </button>
+
+
+        <button class="mystery-card">
+
+            <div class="card-inner">
+
+                <div class="card-front">
+
+                    <span>♡</span>
+
+                    <small>
+                        Pick me
+                    </small>
+
+                </div>
+
+                <div class="card-back">
+
+                    <p>
+                        Some favorite memories
+                        have you in them. 🥹
+                    </p>
+
+                </div>
+
+            </div>
+
+        </button>
+
+
+        <button class="mystery-card">
+
+            <div class="card-inner">
+
+                <div class="card-front">
+
+                    <span>♡</span>
+
+                    <small>
+                        Pick me
+                    </small>
+
+                </div>
+
+                <div class="card-back">
+
+                    <p>
+                        Here's to all the memories
+                        still waiting to happen. ✨
+                    </p>
+
+                </div>
+
+            </div>
+
+        </button>
+
+
+    </div>
+
+
+    <p id="cardResult"
+       class="game-result">
+    </p>
+
+
+    <button id="resetCards"
+            class="main-button hidden">
+
+        Pick Another Card ♡
+
+    </button>
+
+</section>
+
+
+<section class="next-section">
+
+    <a href="memories.html"
+       class="main-button">
+
+        Unlock Our Memories 📸
+
+    </a>
+
+</section>
+
+
+</main>
+
+
+<footer>
+
+    <p>
+        You made it through the games. ♡
+    </p>
+
+</footer>
+
+
+
+<script src="js/game.js"></script>
+
+</body>
+</html>
